@@ -14,6 +14,41 @@ profiles:
       - CollectionRemoveAll
       - DiamondOperator
       - OverrideAnnotation
+      - SerialVersionUID
+      - RearrangeClassMembers
+      - BracketsToControl
+      - FieldNameConvention
+      - MultiVariableDeclarationLine
+      - EnumsWithoutEquals
+      - ReImplementingInterface
+      - ImmutableStaticFinalCollections
+      - RemoveNewStringConstructor
+      - InefficientConstructor
+      - PrimitiveBoxedForString
+      - StringFormatLineSeparator
+      - IndexOfToContains
+      - RemoveToStringOnString
+      - StringUtils
+      - StringLiteralEqualityCheck
+      - StringConcatToPlus
+      - UseIsEmptyOnCollections
+      - ArithmethicAssignment
+      - StringBufferToBuilder
+      - PrimitiveObjectUseEquals
+      - WhileToForEach
+      - ForToForEach
+      - EnhancedForLoopToStreamForEach
+      - LambdaForEachIfWrapperToFilter
+      - StatementLambdaToExpression
+      - LambdaForEachCollect
+      - LambdaForEachMap
+      - FlatMapInsteadOfNestedLoops
+      - EnhancedForLoopToStreamAnyMatch
+      - EnhancedForLoopToStreamFindFirst
+      - EnhancedForLoopToStreamSum
+      - StringBuildingLoop
+      - LambdaToMethodReference
+      - CodeFormatter
   - name: profile2
     rules:
       - SerialVersionUid
