@@ -2,7 +2,7 @@
 
 # specify one of the profiles declared below as the selected profile.
 # if the selectedProfile is not specified the rules in the “rules:” section will be applied
-selectedProfile: profile1
+selectedProfile: 
 
 # define profiles here
 profiles:
@@ -34,7 +34,6 @@ rules:
   - SerialVersionUID
   - RearrangeClassMembers
   - BracketsToControl
-  - FieldNameConvention
   - MultiVariableDeclarationLine
   - EnumsWithoutEquals
   - ReImplementingInterface
